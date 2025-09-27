@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orage_activitymain_button">#FF6A4D</color>
+
+    <color name="purple1">#F55F98</color>
+
+    <color name="purple2">#FF297E</color>
+
+    <color name="orange_light1">#FCA797</color>
+
+    <color name="orange_dark1">#540000</color>
+
+    <color name="red1">#DC143C</color>
+
+    <color name="red2">#FF3030</color>
+
+    <color name="red3">#F7CAC9</color>
+
+
+
+
+    <color name="primary_blue">#0074C7</color>   <!-- matches your logo -->
+    <color name="welcome_msg">#0074C7</color>    <!-- title -->
+    <color name="sub_title">#555555</color>      <!-- softer subtitle -->
+    <color name="black_12">#1F000000</color>     <!-- ripple (12% black) -->
+
+
+
+</resources>
