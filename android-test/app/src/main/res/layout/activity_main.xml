@@ -39,7 +39,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.189"
-        app:srcCompat="@drawable/logoNew" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView"

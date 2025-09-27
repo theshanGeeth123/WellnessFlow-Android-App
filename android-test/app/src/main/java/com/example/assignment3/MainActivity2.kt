@@ -3,6 +3,7 @@ package com.example.assignment3
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.assignment3.notifications.NotificationHelper
 import com.example.assignment3.ui.settings.SettingsFragment
@@ -32,6 +33,21 @@ class MainActivity2 : AppCompatActivity() {
                 )
                 .commit()
         }
+
+        val btn1 = findViewById<Button>(R.id.btn1)
+        btn1.setOnClickListener {
+            supportActionBar?.title = "\uD83D\uDE0A"
+            supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.fragmentContainer,
+                    com.example.assignment3.ui.mood.MoodListFragment()
+                )
+                .addToBackStack("mood") // optional: enables back button to return
+                .commit()
+        }
+
+
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -42,7 +58,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menu_habits -> {
-                supportActionBar?.title = getString(R.string.activities)
+                supportActionBar?.title = "\uD83C\uDFC3\u200D♂\uFE0F"
                 supportFragmentManager.beginTransaction()
                     .replace(
                         R.id.fragmentContainer,
@@ -52,7 +68,7 @@ class MainActivity2 : AppCompatActivity() {
                 true
             }
             R.id.menu_mood -> {
-                supportActionBar?.title = getString(R.string.mood_journal)
+                supportActionBar?.title = "\uD83D\uDE0A"
                 supportFragmentManager.beginTransaction()
                     .replace(
                         R.id.fragmentContainer,
@@ -62,7 +78,7 @@ class MainActivity2 : AppCompatActivity() {
                 true
             }
             R.id.menu_settings -> {
-                supportActionBar?.title = "Settings"
+                supportActionBar?.title = "⚙\uFE0F"
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragmentContainer, SettingsFragment())
                     .commit()

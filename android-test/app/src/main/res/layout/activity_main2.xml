@@ -9,10 +9,24 @@
         android:id="@+id/topAppBar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="@color/black"
-        app:title="@string/activities"
+        android:background="#E3EBFF"
         app:titleCentered="false"
-        app:titleTextColor="@android:color/white" />
+        app:titleTextColor="@android:color/white" >
+
+       <ImageView
+           android:layout_width="130dp"
+           android:layout_height="wrap_content"
+           android:background="@drawable/logo"
+           />
+
+    </com.google.android.material.appbar.MaterialToolbar>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gtg"
+        ></Button>
 
     <FrameLayout
         android:id="@+id/fragmentContainer"
