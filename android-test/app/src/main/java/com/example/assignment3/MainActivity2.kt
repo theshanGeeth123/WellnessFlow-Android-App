@@ -34,13 +34,37 @@ class MainActivity2 : AppCompatActivity() {
                 .commit()
         }
 
-        val btn1 = findViewById<Button>(R.id.btn1)
+        val btn1 = findViewById<Button>(R.id.btnAct)
         btn1.setOnClickListener {
             supportActionBar?.title = "\uD83D\uDE0A"
             supportFragmentManager.beginTransaction()
                 .replace(
                     R.id.fragmentContainer,
+                    com.example.assignment3.ui.habits.list.HabitListFragment()
+                )
+                .addToBackStack("mood") // optional: enables back button to return
+                .commit()
+        }
+
+        val btn2 = findViewById<Button>(R.id.btnMood)
+        btn2.setOnClickListener {
+            supportActionBar?.title = "\uD83D\uDE0A"
+            supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.fragmentContainer,
                     com.example.assignment3.ui.mood.MoodListFragment()
+                )
+                .addToBackStack("mood") // optional: enables back button to return
+                .commit()
+        }
+
+        val btn3 = findViewById<Button>(R.id.btnSettings)
+        btn3.setOnClickListener {
+            supportActionBar?.title = "\uD83D\uDE0A"
+            supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.fragmentContainer,
+                    com.example.assignment3.ui.settings.SettingsFragment()
                 )
                 .addToBackStack("mood") // optional: enables back button to return
                 .commit()

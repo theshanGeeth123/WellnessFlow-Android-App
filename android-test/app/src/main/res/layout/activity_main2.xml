@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -21,12 +22,57 @@
 
     </com.google.android.material.appbar.MaterialToolbar>
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="gtg"
-        ></Button>
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="20dp"
+            android:text="My Habits"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/activitybtn"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="Mood Journal"
+            android:paddingLeft="10dp"
+            android:textAllCaps="false"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/moodbtn"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textAllCaps="false"
+            android:paddingRight="10dp"
+            android:textColor="@color/white"
+            android:text="Reminders"
+            android:background="@drawable/main_button1"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
 
     <FrameLayout
         android:id="@+id/fragmentContainer"
