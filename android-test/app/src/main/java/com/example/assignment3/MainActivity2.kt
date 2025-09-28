@@ -36,7 +36,7 @@ class MainActivity2 : AppCompatActivity() {
 
         val btn1 = findViewById<Button>(R.id.btnAct)
         btn1.setOnClickListener {
-            supportActionBar?.title = "\uD83D\uDE0A"
+            supportActionBar?.title = ""
             supportFragmentManager.beginTransaction()
                 .replace(
                     R.id.fragmentContainer,
@@ -48,7 +48,7 @@ class MainActivity2 : AppCompatActivity() {
 
         val btn2 = findViewById<Button>(R.id.btnMood)
         btn2.setOnClickListener {
-            supportActionBar?.title = "\uD83D\uDE0A"
+            supportActionBar?.title = ""
             supportFragmentManager.beginTransaction()
                 .replace(
                     R.id.fragmentContainer,
@@ -60,7 +60,7 @@ class MainActivity2 : AppCompatActivity() {
 
         val btn3 = findViewById<Button>(R.id.btnSettings)
         btn3.setOnClickListener {
-            supportActionBar?.title = "\uD83D\uDE0A"
+            supportActionBar?.title = ""
             supportFragmentManager.beginTransaction()
                 .replace(
                     R.id.fragmentContainer,
@@ -82,7 +82,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.menu_habits -> {
-                supportActionBar?.title = "\uD83C\uDFC3\u200D♂\uFE0F"
+                supportActionBar?.title = ""
                 supportFragmentManager.beginTransaction()
                     .replace(
                         R.id.fragmentContainer,
@@ -92,7 +92,7 @@ class MainActivity2 : AppCompatActivity() {
                 true
             }
             R.id.menu_mood -> {
-                supportActionBar?.title = "\uD83D\uDE0A"
+                supportActionBar?.title = ""
                 supportFragmentManager.beginTransaction()
                     .replace(
                         R.id.fragmentContainer,
@@ -102,7 +102,7 @@ class MainActivity2 : AppCompatActivity() {
                 true
             }
             R.id.menu_settings -> {
-                supportActionBar?.title = "⚙\uFE0F"
+                supportActionBar?.title = ""
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragmentContainer, SettingsFragment())
                     .commit()

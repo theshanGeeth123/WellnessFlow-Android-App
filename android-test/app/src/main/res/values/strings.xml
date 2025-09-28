@@ -9,7 +9,7 @@
 
     <string name="progress_format">Today: %1$d/%2$d (%3$d%%)</string>
     <string name="viewing_date">Viewing: %1$s</string>
-    <string name="change_date">Change Date</string>
+    <string name="date">Change Date</string>
 
     <string name="add_mood">Add Mood</string>
     <string name="delete">Delete</string>
@@ -31,6 +31,11 @@
 
 
     <string name="btn1">Get Started</string>
+
+
+    <string name="habits_msg">We’re here to help you stay mindful, motivated, and consistent with your daily habits</string>
+
+    <string name="moods_msg">Here, every feeling matters. Track your moods, reflect on your day, and discover patterns that help you grow happier and healthier—one entry at a time.</string>
 
 </resources>
 

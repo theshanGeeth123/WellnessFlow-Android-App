@@ -26,6 +26,12 @@
     <color name="sub_title">#555555</color>      <!-- softer subtitle -->
     <color name="black_12">#1F000000</color>     <!-- ripple (12% black) -->
 
+    <color name="blue_dark">#000B58</color>
+
+    <color name="blue_light1">#A7AAE1</color>
+    <color name="blue_light2">#696FC7</color>
+
+    <color name="moods_bg">#FCEBFF</color>
 
 
 </resources>

@@ -3,7 +3,12 @@
     android:padding="12dp"
     android:gravity="center_vertical"
     android:orientation="horizontal"
+    android:background="@drawable/habitrow"
     android:layout_width="match_parent"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+
+    android:layout_marginLeft="5dp"
     android:layout_height="wrap_content">
 
     <CheckBox
@@ -30,7 +35,7 @@
         android:contentDescription="Edit"
         android:src="@android:drawable/ic_menu_edit"
         android:layout_marginRight="5dp"
-        android:background="@color/red3" />
+        android:background="#EDF0FC" />
 
 
     <ImageButton
@@ -39,5 +44,6 @@
         android:layout_height="40dp"
         android:contentDescription="Delete"
         android:src="@android:drawable/ic_menu_delete"
-        android:background="@color/red1"/>
+        android:background="#EDF0FC"
+        />
 </LinearLayout>

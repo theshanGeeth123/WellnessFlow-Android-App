@@ -28,7 +28,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
 
@@ -36,8 +35,8 @@
             android:id="@+id/btnAct"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
-            android:layout_marginRight="20dp"
+            android:minWidth="120dp"
+            android:layout_marginRight="10dp"
             android:text="My Habits"
             android:textStyle="bold"
             android:paddingLeft="10dp"
@@ -51,8 +50,9 @@
             android:id="@+id/btnMood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="10dp"
             android:text="Mood Journal"
+            android:minWidth="120dp"
             android:paddingLeft="10dp"
             android:textAllCaps="false"
             android:paddingRight="10dp"
@@ -67,9 +67,10 @@
             android:paddingLeft="10dp"
             android:textAllCaps="false"
             android:paddingRight="10dp"
+            android:minWidth="120dp"
             android:textColor="@color/white"
             android:text="Reminders"
-            android:background="@drawable/main_button1"
+            android:background="@drawable/reminderbtn"
             ></androidx.appcompat.widget.AppCompatButton>
 
     </LinearLayout>
