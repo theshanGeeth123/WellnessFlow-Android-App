@@ -12,7 +12,7 @@
 
         <TextView
             android:id="@+id/tvPickEmoji"
-            android:text="@string/pick_emoji"
+            android:text="@string/addMood"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:layout_width="wrap_content" android:layout_height="wrap_content"/>

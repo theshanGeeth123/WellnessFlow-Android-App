@@ -14,7 +14,8 @@
     <string name="add_mood">Add Mood</string>
     <string name="delete">Delete</string>
     <string name="pick_emoji">Pick an emoji</string>
-    <string name="note_optional">Add your own note to mode journel</string>
+    <string name="addMood">Add your mood today</string>
+    <string name="note_optional">Add a note to mode journel</string>
     <string name="mood_journal">Mood Journal</string>
     <string name="activities">My Activities</string>
 
@@ -35,7 +36,7 @@
 
     <string name="habits_msg">We’re here to help you stay mindful, motivated, and consistent with your daily habits</string>
 
-    <string name="moods_msg">Here, every feeling matters. Track your moods, reflect on your day, and discover patterns that help you grow happier and healthier—one entry at a time.</string>
+    <string name="moods_msg">Here, every feeling matters. Track your moods, reflect on your day, Track your mood everyday.</string>
 
 </resources>
 
