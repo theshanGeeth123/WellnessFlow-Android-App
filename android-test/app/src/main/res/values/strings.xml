@@ -21,8 +21,8 @@
 
     <string name="hydration_channel_name">Hydration Reminders</string>
     <string name="hydration_channel_desc">Reminds you to drink water at your chosen interval</string>
-    <string name="hydration_title">Time to hydrate</string>
-    <string name="hydration_text">Drink a glass of water 💧</string>
+    <string name="hydration_title">Hydrate Reminder</string>
+    <string name="hydration_text">Hydrate Reminder time has up</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

@@ -1,5 +1,6 @@
 package com.example.assignment3
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -81,31 +82,12 @@ class MainActivity2 : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.menu_habits -> {
-                supportActionBar?.title = ""
-                supportFragmentManager.beginTransaction()
-                    .replace(
-                        R.id.fragmentContainer,
-                        com.example.assignment3.ui.habits.list.HabitListFragment()
-                    )
-                    .commit()
-                true
-            }
-            R.id.menu_mood -> {
-                supportActionBar?.title = ""
-                supportFragmentManager.beginTransaction()
-                    .replace(
-                        R.id.fragmentContainer,
-                        com.example.assignment3.ui.mood.MoodListFragment()
-                    )
-                    .commit()
-                true
-            }
-            R.id.menu_settings -> {
-                supportActionBar?.title = ""
-                supportFragmentManager.beginTransaction()
-                    .replace(R.id.fragmentContainer, SettingsFragment())
-                    .commit()
+
+            R.id.logout -> {
+
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+
                 true
             }
             else -> super.onOptionsItemSelected(item)

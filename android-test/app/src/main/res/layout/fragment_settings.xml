@@ -22,6 +22,7 @@
 
             <TextView
                 android:text="Enable reminders"
+                android:textColor="@color/black"
                 android:layout_width="0dp" android:layout_height="wrap_content"
                 android:layout_weight="1"/>
 
@@ -31,27 +32,34 @@
         </LinearLayout>
 
         <!-- Interval in hours for periodic WorkManager -->
+
+        <!-- Immediate test -->
         <LinearLayout
-            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:paddingTop="12dp"
-            android:gravity="center_vertical">
+            android:paddingTop="12dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="Interval (hours):"
-                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                android:textColor="@color/black" />
 
             <NumberPicker
                 android:id="@+id/npHours"
-                android:layout_width="wrap_content" android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp" />
         </LinearLayout>
 
-        <!-- Immediate test -->
         <Button
             android:id="@+id/btnTestNow"
             android:text="Test reminder now"
-            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2F348A"
             android:layout_marginTop="16dp"/>
 
         <!-- One-time test in minutes -->
@@ -63,6 +71,7 @@
             android:text="Testing (one-time):"
             android:textStyle="bold"
             android:layout_marginTop="12dp"
+            android:textColor="@color/black"
             android:layout_width="wrap_content" android:layout_height="wrap_content"/>
 
         <LinearLayout
@@ -73,6 +82,7 @@
 
             <TextView
                 android:text="Run after (minutes):"
+                android:textColor="@color/black"
                 android:layout_width="wrap_content" android:layout_height="wrap_content"/>
 
             <NumberPicker
@@ -84,14 +94,11 @@
         <Button
             android:id="@+id/btnTestAfterMinutes"
             android:text="Schedule one-time test"
-            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:backgroundTint="#2F348A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="8dp"/>
 
-        <TextView
-            android:text="Note: Periodic WorkManager tasks have a minimum interval of 15 minutes. Use the one-time test above for faster demos."
-            android:textSize="12sp"
-            android:textColor="#888888"
-            android:layout_marginTop="8dp"
-            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
     </LinearLayout>
 </ScrollView>
