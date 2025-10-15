@@ -15,14 +15,12 @@ class MainActivity2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // If you created a new layout for this activity, use activity_main2.
-        // If you want to reuse the old one, keep R.layout.activity_main.
+
         setContentView(R.layout.activity_main2)
 
         val toolbar = findViewById<MaterialToolbar>(R.id.topAppBar)
         setSupportActionBar(toolbar)
 
-        // ensure channel + schedule at app start (respects prefs)
         NotificationHelper.ensureChannel(this)
         ReminderScheduler.ensureScheduled(this)
 
@@ -43,7 +41,7 @@ class MainActivity2 : AppCompatActivity() {
                     R.id.fragmentContainer,
                     com.example.assignment3.ui.habits.list.HabitListFragment()
                 )
-                .addToBackStack("mood") // optional: enables back button to return
+                .addToBackStack("mood")
                 .commit()
         }
 
@@ -55,7 +53,7 @@ class MainActivity2 : AppCompatActivity() {
                     R.id.fragmentContainer,
                     com.example.assignment3.ui.mood.MoodListFragment()
                 )
-                .addToBackStack("mood") // optional: enables back button to return
+                .addToBackStack("mood")
                 .commit()
         }
 
@@ -67,7 +65,7 @@ class MainActivity2 : AppCompatActivity() {
                     R.id.fragmentContainer,
                     com.example.assignment3.ui.settings.SettingsFragment()
                 )
-                .addToBackStack("mood") // optional: enables back button to return
+                .addToBackStack("mood")
                 .commit()
         }
 

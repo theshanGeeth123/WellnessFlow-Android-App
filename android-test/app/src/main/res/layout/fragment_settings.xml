@@ -58,6 +58,7 @@
             android:id="@+id/btnTestNow"
             android:text="Test reminder now"
             android:layout_width="match_parent"
+            android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:backgroundTint="#2F348A"
             android:layout_marginTop="16dp"/>
@@ -95,6 +96,7 @@
             android:id="@+id/btnTestAfterMinutes"
             android:text="Schedule one-time test"
             android:backgroundTint="#2F348A"
+            android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"/>

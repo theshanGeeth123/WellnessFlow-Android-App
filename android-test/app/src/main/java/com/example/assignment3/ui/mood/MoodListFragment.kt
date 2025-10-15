@@ -30,7 +30,6 @@ class MoodListFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate layout WITHOUT viewBinding
         return inflater.inflate(R.layout.fragment_mood_list, container, false)
     }
 
@@ -38,7 +37,7 @@ class MoodListFragment : Fragment() {
         try {
             super.onViewCreated(view, savedInstanceState)
 
-            // find views (ids must exist in fragment_mood_list.xml)
+
             rvMood = view.findViewById(R.id.rvMood)
             fabAddMood = view.findViewById(R.id.fabAddMood)
             tvEmpty = view.findViewById(R.id.tvEmpty)
@@ -79,7 +78,6 @@ class MoodListFragment : Fragment() {
 
         var selectedEmoji: String? = null
 
-        // Make sure all children are TextViews (as in our XML)
         for (i in 0 until emojiGrid.childCount) {
             val child = emojiGrid.getChildAt(i)
             if (child is TextView) {

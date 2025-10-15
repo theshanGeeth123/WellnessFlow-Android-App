@@ -19,6 +19,10 @@
     <color name="red3">#F7CAC9</color>
 
 
+    <!-- landing pages colors -->
+
+    <color name="blue_light">#086EB8</color>
+
 
 
     <color name="primary_blue">#0074C7</color>   <!-- matches your logo -->

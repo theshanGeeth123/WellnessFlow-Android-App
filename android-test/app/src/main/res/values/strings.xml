@@ -1,7 +1,6 @@
 <resources>
 
 
-
     <string name="edit_habit">Edit Habit</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
@@ -10,6 +9,13 @@
     <string name="progress_format">Today: %1$d/%2$d (%3$d%%)</string>
     <string name="viewing_date">Viewing: %1$s</string>
     <string name="date">Change Date</string>
+
+
+    <string name="lp_header1">Small steps. Steady growth.</string>
+    <string name="lp_header1_2">Track your habits. Understand your moods. Nurture your well-being.</string>
+    <string name="lp_header3">Track your Journey ,stay focus.</string>
+    <string name="lp_text">Next</string>
+
 
     <string name="add_mood">Add Mood</string>
     <string name="delete">Delete</string>

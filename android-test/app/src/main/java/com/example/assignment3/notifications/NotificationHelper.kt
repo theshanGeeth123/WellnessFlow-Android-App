@@ -26,7 +26,7 @@ object NotificationHelper {
     }
 
     fun showHydration(ctx: Context) {
-        // Use app icon as the small icon
+
         val builder = NotificationCompat.Builder(ctx, CHANNEL_ID)
             .setSmallIcon(R.mipmap.ic_launcher)   // <-- changed from R.drawable.ic_notification
             .setContentTitle(ctx.getString(R.string.hydration_title))
