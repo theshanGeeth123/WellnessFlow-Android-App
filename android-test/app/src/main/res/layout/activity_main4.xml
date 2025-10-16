@@ -1,12 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/white"
-    android:fillViewport="true">
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -39,7 +31,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lp_header1"
+        android:text="@string/lp_header2"
         android:textColor="@color/blue_light"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -63,7 +55,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lp_header1_2"
+        android:text="@string/lp_header2_2"
         android:textColor="@color/blue_light"
         android:textSize="17sp"
 
@@ -76,7 +68,7 @@
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/lpi1"
+        app:srcCompat="@drawable/lp2i1"
         android:layout_marginTop="20dp"
 
         android:layout_gravity="center|left"
@@ -89,7 +81,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/lp_header3"
+        android:text="@string/lp_header2_3"
+        android:gravity="center"
         android:textColor="@color/blue_light"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -114,5 +107,3 @@
 
 
 </FrameLayout>
-
-</ScrollView>

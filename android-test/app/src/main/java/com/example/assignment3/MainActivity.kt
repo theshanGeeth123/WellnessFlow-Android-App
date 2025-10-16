@@ -9,12 +9,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main3)
+        setContentView(R.layout.activity_main)
 
-//        val btnGoToMain2 = findViewById<Button>(R.id.btnGoToMain2)
-//        btnGoToMain2.setOnClickListener {
-//            val intent = Intent(this, MainActivity2::class.java)
-//            startActivity(intent)
-//        }
+        val btnGoToMain2 = findViewById<Button>(R.id.btnGoToMain2)
+        btnGoToMain2.setOnClickListener {
+            val intent = Intent(this, MainActivity3::class.java)
+            startActivity(intent)
+        }
     }
 }

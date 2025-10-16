@@ -16,6 +16,14 @@
     <string name="lp_header3">Track your Journey ,stay focus.</string>
     <string name="lp_text">Next</string>
 
+    <string name="lp_header2">Your personal path to balance</string>
+    <string name="lp_header2_2">Stay consistent with habits and in tune with emotions.</string>
+    <string name="lp_header2_3">Create balance through mindful habits and emotional awareness.</string>
+
+    <string name="lp_header3_1">Write, reflect, and grow</string>
+    <string name="lp_header3_2">Capture your feelings. Celebrate your emotional journey.</string>
+    <string name="lp_header3_3">Notice your moods. Nurture your emotional wellness.</string>
+
 
     <string name="add_mood">Add Mood</string>
     <string name="delete">Delete</string>
