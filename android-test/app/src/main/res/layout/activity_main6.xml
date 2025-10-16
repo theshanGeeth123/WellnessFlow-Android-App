@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Discover Your\nItems"
-        android:textColor="@color/black"
+        android:textColor="@color/blue_light"
         android:textSize="32sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -41,7 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Explore all the existing items based on your\ninterest and study major"
-        android:textColor="@color/black"
+        android:textColor="@color/blue_light2"
         android:textSize="18sp"
         android:layout_marginTop="150dp"
         android:gravity="center"
@@ -53,9 +53,9 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="250dp"
-        app:srcCompat="@drawable/main6i1"
+        app:srcCompat="@drawable/logo5"
         android:layout_gravity="top|center_horizontal"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         />
 
 
@@ -73,7 +73,7 @@
         android:paddingRight="45dp"
         android:text="Register"
         android:textSize="25sp"
-        android:textColor="@color/black"
+        android:textColor="@color/blue_light"
         android:textStyle="bold|italic"
         />
 
