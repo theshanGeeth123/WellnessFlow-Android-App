@@ -1,30 +1,20 @@
 <resources>
-
-
     <string name="edit_habit">Edit Habit</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
-
-
     <string name="progress_format">Today: %1$d/%2$d (%3$d%%)</string>
     <string name="viewing_date">Viewing: %1$s</string>
     <string name="date">Change Date</string>
-
-
     <string name="lp_header1">Small steps. Steady growth.</string>
     <string name="lp_header1_2">Track your habits. Understand your moods. Nurture your well-being.</string>
     <string name="lp_header3">Track your Journey ,stay focus.</string>
     <string name="lp_text">Next</string>
-
     <string name="lp_header2">Your personal path to balance</string>
     <string name="lp_header2_2">Stay consistent with habits and in tune with emotions.</string>
     <string name="lp_header2_3">Create balance through mindful habits and emotional awareness.</string>
-
     <string name="lp_header3_1">Write, reflect, and grow</string>
     <string name="lp_header3_2">Capture your feelings. Celebrate your emotional journey.</string>
     <string name="lp_header3_3">Notice your moods. Nurture your emotional wellness.</string>
-
-
     <string name="add_mood">Add Mood</string>
     <string name="delete">Delete</string>
     <string name="pick_emoji">Pick an emoji</string>
@@ -32,26 +22,17 @@
     <string name="note_optional">Add a note to mode journel</string>
     <string name="mood_journal">Mood Journal</string>
     <string name="activities">My Activities</string>
-
     <string name="hydration_channel_name">Hydration Reminders</string>
     <string name="hydration_channel_desc">Reminds you to drink water at your chosen interval</string>
     <string name="hydration_title">Hydrate Reminder</string>
     <string name="hydration_text">Hydrate Reminder time has up</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <string name="welcome_msg">Welcome to WellnessFlow</string>
-
-    <string name="welcome_intro">Your all-in-one companion for building healthy routines, tracking daily wellness activities, and staying balanced.</string>
-
-
+    <string name="welcome_intro">Your all-in-one companion for building healthy routines,
+        tracking daily wellness activities, and staying balanced.</string>
     <string name="btn1">Get Started</string>
-
-
     <string name="habits_msg">We’re here to help you stay mindful, motivated, and consistent with your daily habits</string>
-
     <string name="moods_msg">Here, every feeling matters. Track your moods, reflect on your day, Track your mood everyday.</string>
-
 </resources>
 
 

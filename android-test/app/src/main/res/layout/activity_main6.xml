@@ -40,7 +40,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Explore all the existing items based on your\ninterest and study major"
+        android:text="Track your all activities , moods and \nuse reminders in one place"
         android:textColor="@color/blue_light2"
         android:textSize="18sp"
         android:layout_marginTop="150dp"
